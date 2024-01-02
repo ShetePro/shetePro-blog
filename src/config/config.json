@@ -4,8 +4,7 @@
     "base_url": "http://linzijian.top",
     "base_path": "/",
     "favicon": "/favicon.png",
-    "logoLight": "/logoLight.png",
-    "logoDark": "/logoDark.png",
+    "logo": "/logo.png",
     "lang": "en",
     "description": "shetePro的博客 记录一切想记录的美好",
     "pageSize": 6
@@ -19,8 +18,8 @@
     "meta_description": "shetePro blog"
   },
   "author": {
-    "name": "ShetePro",
-    "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
-    "bio": "目前在舟山，喜欢javascript、vue。从2019年开始学习前端编程，未来希望能在社区做贡献。"
+    "name": "前端男孩",
+    "avatar": "/gndx-astro-avatar.png",
+    "bio": "热爱技术、分享技术！目前在舟山，喜欢javascript、vue。从2019年开始学习前端编程，未来希望能在社区做贡献。"
   }
 }

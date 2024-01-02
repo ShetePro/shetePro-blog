@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, squooshImageService } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import tailwind from '@astrojs/tailwind';
 import compressor from "astro-compressor";
@@ -13,6 +13,7 @@ export default defineConfig({
   site: 'http://localhost:4322/',
   image: {
     remotePatterns: [{ protocol: 'https' }],
+    service: squooshImageService(),
   },
   markdown: {
     drafts: true,
