@@ -2,8 +2,8 @@
 title: ES6语法简介
 description: '在日常开发中 ES6语法出现的次数非常多，这里简单记录一下ES6更新的语法'
 pubDate: '2020-02-27'
-heroImage: '/blog-placeholder.jpg'
-categories: ['code']
+heroImage: '/src/assets/heroImage/es6.jpeg'
+categories: ['web']
 authors: ['shetePro']
 tags: ['javascript']
 ---

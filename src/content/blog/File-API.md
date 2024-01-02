@@ -3,7 +3,7 @@ title: 'File API'
 description: 'javascript 中File Api 学习 了解文件方法和作用'
 pubDate: '2019-11-05'
 heroImage: '/blog-placeholder.jpg'
-categories: ['code']
+categories: ['web']
 authors: ['shetePro']
 tags: ['javascript']
 ---

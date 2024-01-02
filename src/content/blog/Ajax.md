@@ -2,8 +2,8 @@
 title: 'Ajax请求'
 description: '如何使用ajax 来异步更改页面内容'
 pubDate: '2020-01-23'
-heroImage: '/blog-placeholder.jpg'
-categories: ['code']
+heroImage: '/src/assets/heroImage/ajax_cover.png'
+categories: ['web']
 authors: ['shetePro']
 tags: ['javascript', 'ajax']
 ---
