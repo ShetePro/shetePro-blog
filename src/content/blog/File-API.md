@@ -1,6 +1,6 @@
 ---
 title: 'File API'
-description: '解读 js 中File Api 到底是怎么一回事'
+description: 'javascript 中File Api 学习 了解文件方法和作用'
 pubDate: '2019-11-05'
 heroImage: '/blog-placeholder.jpg'
 categories: ['code']
@@ -14,7 +14,7 @@ File API规定怎么从硬盘上提取文件，直接交给在网页中运行中
 在通过File API操作文件之前，首先必须取得文件。使用File API可以直接读取文本文件的内容。 
 <!--more-->
 例如：
-![Loading failed](11.9.png)
+![Loading failed](./File-API/11.9.png)
 readAsText()方法只能处理文本内容的文件，如CSV格式，XML格式，.docx格式和.xlsx格式的文件。 
 readAsText()方法只是众多读取文件的方法之一，还有readAsBinaryStrng(),readAsDataURL()和readAsArrayBuffer().
 
