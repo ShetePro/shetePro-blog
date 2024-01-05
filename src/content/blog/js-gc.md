@@ -1,8 +1,8 @@
 ---
 title: "js中的垃圾回收机制"
-description:
+description: "学习V8引擎的垃圾回收机制，记录一下知识点，关于如何判断变量是否需要回收、标记回收和引用回收等"
 pubDate: "2024-01-04T06:38:31.269Z"
-heroImage:
+heroImage: '/heroImage/js-gc-cover.png'
 categories: ['V8', 'web']
 authors: ['shetePro']
 tags: ['javascript', 'V8']
