@@ -1,0 +1,40 @@
+---
+import config from "@config/config.json";
+import social from "@config/social";
+import TiltImage from "./TiltImage.astro";
+
+const socialItems = social.networks;
+---
+
+<section class="bg-zinc-50 dark:bg-zinc-900">
+  <div class="mx-auto max-w-screen-lg px-4 py-0 sm:px-6 pb-6 sm:pb-12 lg:px-8">
+    <div class="flex items-start justify-between">
+      <div class="rounded-lg w-3/5">
+        <h1
+          class="text-lg md:text-2xl font-bold text-zinc-900 dark:text-white sm:text-3xl mb-0"
+        >
+          Hello! <span class="wave-hand">👋</span>
+        </h1>
+        <p class="mt-1.5 text-sm md:text-lg text-zinc-500 dark:text-zinc-400">
+          {config.author.bio}
+        </p>
+        <div class="flex space-x-5 pt-8 m-auto">
+          {
+            socialItems?.map((item) => (
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                <figure>
+                  <Fragment set:html={item.svg} />
+                </figure>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+      <div class="rounded-lg">
+        <figure class="right-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px]">
+          <TiltImage image={config.author.avatar} name={config.author.name}></TiltImage>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,7 @@
+@layer utilities {
+  /* 在暗黑模式下修改 --tw-prose-bold */
+  .dark .prose {
+    --tw-prose-bold: #fff; /* 定义新的暗黑模式下的粗体颜色 */
+    --tw-prose-code: #e74c3c;
+  }
+}

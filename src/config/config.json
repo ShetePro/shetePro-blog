@@ -1,0 +1,25 @@
+{
+  "site": {
+    "title": "ShetePro",
+    "base_url": "http://linzijian.top",
+    "base_path": "/",
+    "favicon": "/favicon.png",
+    "logo": "/logo.png",
+    "lang": "en",
+    "description": "shetePro的博客 记录一切想记录的美好",
+    "pageSize": 6
+  },
+  "features": {
+    "youtube": false,
+    "dark_mode": true
+  },
+  "metadata": {
+    "meta_author": "ShetePro",
+    "meta_description": "shetePro blog"
+  },
+  "author": {
+    "name": "ShetePro",
+    "avatar": "/avatar.jpg",
+    "bio": "这是我的个人博客，我会在这里分享记录我所学到的、我所感兴趣的前端技术，化想象为可能 路途遥远 且行且学"
+  }
+}
